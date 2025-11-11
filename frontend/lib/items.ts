@@ -8,6 +8,7 @@ export interface Item {
   category: string
   condition: string
   status: "available" | "borrowed"
+  pricePerDay: number
   ownerId: string
   ownerEmail: string
   ownerName: string
